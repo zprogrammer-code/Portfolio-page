@@ -1,29 +1,20 @@
 
-
-.logo{
-    height:33px;
-     width:120px;
-}
-
 .navbar-nav{   
-  z-index: 2;
+  margin-right: 85px;
   display: flex;
-  flex-direction: column;
-  height: 70px;
+  flex-direction: row;
+  height: 90px;
   padding: 0;
   text-align: left;
-  background-color:white;
   border-radius: 0;
-  -webkit-appearance: none;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 8px;
   }
 
-.custom-row{
-  -webkit-text-fill-color: black;
-  background-color:white;
-}
+  #logo{
+    margin-left: 40px;
+  }
+
   .anouncement-content-wrapper{
     display:flex;
      align-items: center;
@@ -40,11 +31,20 @@
   }
 
   .hero_wrapper{
-
-    margin-top: 200px;
+    margin-left: 800px;
+    margin-top: 80px;
     float: center;
+    align-items: center;
   
-  
+  }
+
+  .face-position{
+    margin-left: 200px;
+    margin-bottom: 50px;
+  }
+
+  .namefont{
+    font-family: 'Lobster', sans-serif;
   }
   
  
@@ -58,30 +58,16 @@
        
   }
 
-  .herosection-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;;
-  
-   }
-
   .searchComponentContainer{
     background-color: black;
   }
 
-  .searchComponentNavbar{
-    background-color: white;
-
-  }
 
   .HomePageContainer{
-    background-image : url(https://images.vans.com/is/image/Vans/VN0A5JIV_BRR_ALT2?wid=1600&hei=1984&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.7,8,0);    
-
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
 
-.StoreContainer{
-  background-color:white;
-}
 
 .contact-title{
   align-items: center;
@@ -111,46 +97,7 @@
   align-items: center;
 }
 
-.product-card{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 15rem;
-}
 
-.product-card:hover{
-  transform: scale(1.5);
-}
-
-.image-zoom{
-   /* padding: 2px;
-   background-color: grey;*/
-    transition: transform .2s;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-}
-
-.product-section{
-  padding:30px;
-  margin: 40px;
-}
-
-.product-details{
-  width:500px;
-  height: 500px;
-  margin-left: 100px;
-}
-
-.product-details-info{
-  margin-top: 30px;
-}
-
-.image-card-placing{
-  display:flex;
-  flex-direction: column;
-  margin-top: 50px;
-}
 
 .owlCarousel{
   background-color: black;
