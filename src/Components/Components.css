@@ -35,7 +35,8 @@
   }
 
   .hero_wrapper{
-    margin-left: 800px;
+   display: flex;
+    margin-left: 700px;
     margin-top: 80px;
     float: center;
     align-items: center;
@@ -47,14 +48,35 @@
     margin-bottom: 50px;
   }
 
+  .info{
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .txtdec {
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+  }
+
+  .txtdec2 {
+    text-decoration: underline;
+   -webkit-text-fill-color: blueviolet;
+    font-weight: bold;
+  }
+
   .namefont{
     font-family: 'Lobster', sans-serif;
   }
   
+  .summary{
+
+  }
  
   .the-real-herosection-container{
-    display: block;
-    height: 1080px;
+    display: flex;
     align-items: center;
     justify-content: center;
     
@@ -68,6 +90,9 @@
 
 
   .HomePageContainer{
+    
+    height: 1000vh;
+    width: 1720px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
@@ -107,5 +132,22 @@
   background-color: black;
   height: 800px;
  
+}
+
+#logo{
+  
+}
+
+.emailform{
+ display: flex;
+ flex-direction: column;
+}
+
+.forminput{
+  margin: 10px 0px;
+}
+
+.listitem{
+  margin-bottom: 8px;
 }
 

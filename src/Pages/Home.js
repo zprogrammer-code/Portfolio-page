@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className='HomePageContainer'>
          <PortfolioNavbar/>
          <HeroSection/>
-      </div>
+         </div>
      </>)
       };
 
