@@ -22,13 +22,12 @@
   .anouncement-content-wrapper{
     display:flex;
      align-items: center;
-     justify-content: space-between;
      width:530px;
-  
+     margin-left: 600px;
   }
   
   .alert{
-    background-color: grey;
+    background-color: rgb(68, 122, 230);
   }
   .alert-content-padding{
     margin-right: 10px;
@@ -36,7 +35,7 @@
 
   .hero_wrapper{
    display: flex;
-    margin-left: 700px;
+    margin-left: 400px;
     margin-top: 80px;
     float: center;
     align-items: center;
@@ -92,7 +91,7 @@
   .HomePageContainer{
     
     height: 1000vh;
-    width: 1720px;
+    width:1600px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
@@ -150,4 +149,6 @@
 .listitem{
   margin-bottom: 8px;
 }
+
+
 
