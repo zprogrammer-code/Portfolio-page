@@ -11,7 +11,7 @@ function HeroSection() {
             
         
             <div className= 'hero_wrapper'>
-            <iframe src="https://drive.google.com/file/d/1WFCAQmSPbIy10GzVNSBS-3MGq8tY-CnW/preview" width="640" height="480" allow="autoplay" title='myFace'></iframe>              
+            <iframe src="https://drive.google.com/file/d/1WFCAQmSPbIy10GzVNSBS-3MGq8tY-CnW/preview" width="450" height="480" allow="autoplay" title='myFace'></iframe>              
              <div className='info'>
               <h1 className='namefont'> Hi, My name is Zachary Jacobs</h1>
                     <p className='summary'>Im a fullstack software dveloper. My specialties

@@ -8,7 +8,7 @@ const HomePage = () => {
 
    return( 
       <> 
-      <div className='HomePageContainer'>
+      <div className='HomePageContainer container-fluid'>
          <AlertBar/>
          <PortfolioNavbar/>
          <HeroSection/>

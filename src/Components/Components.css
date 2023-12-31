@@ -33,6 +33,14 @@
     margin-right: 10px;
   }
 
+
+
+
+
+
+
+
+
   .hero_wrapper{
    display: flex;
     margin-left: 400px;
@@ -43,11 +51,13 @@
   }
 
   .face-position{
-    margin-left: 200px;
     margin-bottom: 50px;
   }
 
   .info{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
     margin-left: 20px;
     margin-right: 100px;
     text-align: center;
@@ -78,6 +88,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
   
        
@@ -90,12 +101,39 @@
 
   .HomePageContainer{
     
-    height: 1000vh;
-    width:1600px;
+    height: 130vh;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
 
+.pagination{
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 500px;
+}
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.emailform{
+ display: flex;
+ flex-direction: column;
+}
+
+.forminput{
+  margin: 10px 0px;
+}
+
+.listitem{
+  margin-bottom: 8px;
+}
 
 .contact-title{
   align-items: center;
@@ -113,42 +151,6 @@
   margin-bottom: 30px;
 }
 
-.pagination{
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 500px;
-}
-
-.pagination-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.owlCarousel{
-  background-color: black;
-  height: 800px;
- 
-}
-
-#logo{
-  
-}
-
-.emailform{
- display: flex;
- flex-direction: column;
-}
-
-.forminput{
-  margin: 10px 0px;
-}
-
-.listitem{
-  margin-bottom: 8px;
-}
 
 
 
