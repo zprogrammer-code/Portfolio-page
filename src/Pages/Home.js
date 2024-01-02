@@ -3,6 +3,7 @@ import '/home/zprogrammercode/React-portfolio-page/portfolio-page1/src/Component
 import HeroSection from '../Components/HeroSection';
 import PortfolioNavbar from '../Components/Navbar';
 import AlertBar from '../Components/AlertBar';
+import MultiCarousel from '../Components/ProjectCarousel';
 
 const HomePage = () => {
 
@@ -12,6 +13,8 @@ const HomePage = () => {
          <AlertBar/>
          <PortfolioNavbar/>
          <HeroSection/>
+         <h1 className='carousel1-title'>Ultra Shoe Collecting</h1>
+         <MultiCarousel/>
          </div>
      </>)
       };
